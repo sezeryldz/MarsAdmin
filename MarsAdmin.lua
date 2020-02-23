@@ -31,7 +31,7 @@ gettingGOBinfo=0
 gettingGOBinfoinfo=0
 
 MAJOR_VERSION = "MarsAdmin V7"
-MINOR_VERSION = "$Revision: 1 $"
+MINOR_VERSION = "$Revision: 2 $"
 ROOT_PATH     = "Interface\\AddOns\\MarsAdmin\\"
 local cont = ""
 if not AceLibrary then error(MAJOR_VERSION .. " requires AceLibrary") end
@@ -117,9 +117,9 @@ MangAdmin:RegisterDefaults("account",
       color = {
         buffer = {},
         buttons = {
-          r = 7,
+          r = 0,
           g = 60,
-          b = 10
+          b = 0
         },
         frames = {
           r = 0,
@@ -133,7 +133,7 @@ MangAdmin:RegisterDefaults("account",
         },
         linkifier = {
           r = 0,
-          g = 200,
+          g = 250,
           b = 0
         }
       }
@@ -1727,7 +1727,6 @@ function MangAdmin:InitButtons()
   self:PrepareScript(ma_tabbutton_who        , nil          , function() MangAdmin:InstantGroupToggle("who") end)
   --end tab buttons
   -- start mini buttons
-  self:PrepareScript(ma_mm_logoframe         , nil                             , function() MangAdmin:OnClick() end)
   self:PrepareScript(ma_mm_mainbutton        , Locale["tt_MainButton"]         , function() MangAdmin:InstantGroupToggle("main") end)
   self:PrepareScript(ma_mm_charbutton        , Locale["tt_CharButton"]         , function() MangAdmin:InstantGroupToggle("char") end)
   self:PrepareScript(ma_mm_char2button       , Locale["tt_Char2Button"]        , function() MangAdmin:InstantGroupToggle("char2") end)

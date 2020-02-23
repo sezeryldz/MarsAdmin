@@ -74,7 +74,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry1_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Eastern Kingdoms (N)",
+    text = "Kalimdor",
     size = {
       width = 181,
       height = 16
@@ -97,7 +97,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry2_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Eastern Kingdoms (S)",
+    text = "Eastern Kingdoms",
     size = {
       width = 181,
       height = 16
@@ -120,7 +120,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry3_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Kalimdor",
+    text = "Outland",
     size = {
       width = 181,
       height = 16
@@ -143,7 +143,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry4_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Outland",
+    text = "Northrend",
     size = {
       width = 181,
       height = 16
@@ -166,7 +166,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry5_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Northrend-Alliance",
+    text = "Maelstrom",
     size = {
       width = 181,
       height = 16
@@ -189,7 +189,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry6_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Northrend-Horde",
+    text = "Pandaria",
     size = {
       width = 181,
       height = 16
@@ -212,7 +212,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry7_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Battlegrounds/Arenas",
+    text = "Draenor",
     size = {
       width = 181,
       height = 16
@@ -235,7 +235,7 @@ function MangAdmin:CreateTeleSection()
       name = "ma_ContScrollBarEntry8_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
-    text = "Instances: Eastern",
+    text = "Broken Isles",
     size = {
       width = 181,
       height = 16
@@ -256,75 +256,6 @@ function MangAdmin:CreateTeleSection()
     },
     texture = {
       name = "ma_ContScrollBarEntry9_texture",
-      color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
-    },
-    text = "Instances: Kalimdor",
-    size = {
-      width = 181,
-      height = 16
-    },
-    --script = {{"OnShow", function() this:RegisterForClicks("LeftButtonDown", "RightButtonDown") end}}
-  })
-  button.script = {{"OnShow", function() button.RegisterForClicks("LeftButtonDown", "RightButtonDown") end}}
-
-  button = FrameLib:BuildButton({
-    name = "ma_ContScrollBarEntry10",
-    group = "tele",
-    parent = ma_midframe,
-    setpoint = {
-      pos = "TOPLEFT",
-      relTo = "ma_ContScrollBarEntry9",
-      relPos = "BOTTOMLEFT",
-      offY = -2
-    },
-    texture = {
-      name = "ma_ContScrollBarEntry10_texture",
-      color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
-    },
-    text = "Instances: Outland",
-    size = {
-      width = 181,
-      height = 16
-    },
-    --script = {{"OnShow", function() this:RegisterForClicks("LeftButtonDown", "RightButtonDown") end}}
-  })
-  button.script = {{"OnShow", function() button.RegisterForClicks("LeftButtonDown", "RightButtonDown") end}}
-
-  button = FrameLib:BuildButton({
-    name = "ma_ContScrollBarEntry11",
-    group = "tele",
-    parent = ma_midframe,
-    setpoint = {
-      pos = "TOPLEFT",
-      relTo = "ma_ContScrollBarEntry10",
-      relPos = "BOTTOMLEFT",
-      offY = -2
-    },
-    texture = {
-      name = "ma_ContScrollBarEntry11_texture",
-      color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
-    },
-    text = "Instances: Northrend",
-    size = {
-      width = 181,
-      height = 16
-    },
-    --script = {{"OnShow", function() this:RegisterForClicks("LeftButtonDown", "RightButtonDown") end}}
-  })
-  button.script = {{"OnShow", function() button.RegisterForClicks("LeftButtonDown", "RightButtonDown") end}}
-
-  button = FrameLib:BuildButton({
-    name = "ma_ContScrollBarEntry12",
-    group = "tele",
-    parent = ma_midframe,
-    setpoint = {
-      pos = "TOPLEFT",
-      relTo = "ma_ContScrollBarEntry11",
-      relPos = "BOTTOMLEFT",
-      offY = -2
-    },
-    texture = {
-      name = "ma_ContScrollBarEntry12_texture",
       color = {color.btn.r, color.btn.g, color.btn.b, transparency.btn}
     },
     text = "Other",
