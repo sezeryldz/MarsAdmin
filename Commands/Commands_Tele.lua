@@ -20,7 +20,7 @@ function TeleScrollUpdate()
       MangAdmin:ChatMsg("Lost ma_ZoneScrollBar")
     end
     local cont_temp = MangAdmin.db.char.selectedCont
-    cont = "EK_N"
+    cont = "KA"
     if cont_temp == Nil then
     else
         cont=cont_temp
@@ -79,7 +79,7 @@ end
 
 function SubzoneScrollUpdate()
  local cont_temp = MangAdmin.db.char.selectedCont
- cont = "EK_N"
+ cont = "KA"
  if cont_temp == Nil then
  else
     cont=cont_temp
@@ -89,7 +89,7 @@ function SubzoneScrollUpdate()
 --    cont = MangAdmin.db.char.selectedCont
   local TeleTable = {}
   local subzoneCount = 0
-  local shownZone = "Alterac Mountains"
+  local shownZone = "Kalimdor Capitals"
   if MangAdmin.db.char.selectedZone then
     shownZone = MangAdmin.db.char.selectedZone
   end
