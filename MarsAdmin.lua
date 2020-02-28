@@ -118,7 +118,7 @@ MangAdmin:RegisterDefaults("account",
         buffer = {},
         buttons = {
           r = 0,
-          g = 60,
+          g = 0.3,
           b = 0
         },
         frames = {
