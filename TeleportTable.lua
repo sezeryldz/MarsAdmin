@@ -111,14 +111,16 @@ elseif cont == "EK" then
 elseif cont == "OUTL" then
   return {
     ["Outland Capitals"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Shattrath"] = ".go -1904 5312 5 530",
     },
     ["Outland Zones"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Hellfire Peninsula"] = ".go -251 1040 55 530",
+      ["Zangarmarsh"] = ".go 36 7102 25 530",
+      ["Netherstorm"] = ".go 3161 3155 101 530",
+	  ["Nagrand"] = ".go -2144 7837 -10 530",
+	  ["Shadowmoon Valley"] = ".go -3563 561 15 530",
+	  ["Terokkar Forest"] = ".go -2127 4213 7 530",
+	  ["Blades Edge Mountains"] = ".go 2384 6045 140 530",
     },
     ["Outland Dungeons"] = {
       ["empty"] = ".go 10 20 30 0",
@@ -135,14 +137,20 @@ elseif cont == "OUTL" then
 elseif cont == "NRTH" then
   return {
     ["Northrend Capitals"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Dalaran"] = ".go 5794 632 648 571",,
     },
     ["Northrend Zones"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+	  ["Hrothgars Landing"] = ".go 9962 1064 20 571",
+      ["Borean Tundra"] = ".go 2989 6489 80 571",
+      ["Sholazar Basın"] = ".go 5570 5608 -90 571",
+      ["WınterGrasp"] = ".go 5036 2848 400 571",
+	  ["IceCrown"] = ".go 5975 2156 610 571",
+	  ["Storm Peaks"] = ".go 6935 -1651 815 571",
+	  ["DragonBlıght"] = ".go 3604 1401 95 571",
+	  ["Crystalsong"] = ".go 5290 -814 171 571",
+	  ["Zul Drak"] = ".go 5573 -3231 375 571",
+	  ["Grizzly Hılls"] = ".go 3601 -2941 228 571",
+	  ["Howling Fjord"] = ".go 2804 -4620 280 571",
     },
     ["Northrend Dungeons"] = {
       ["empty"] = ".go 10 20 30 0",
@@ -158,15 +166,11 @@ elseif cont == "NRTH" then
  }
 elseif cont == "MAEL" then
   return {
-    ["Maelstrom Capitals"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
     },
     ["Maelstrom Zones"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Maelstorm"] = ".go 848 1058 -7 730",
+      ["Kezan"] = ".go -7947 1834 7 648",
+      ["The Lost Isles"] = ".go 1091 2311 6 648",
     },
     ["Maelstrom Dungeons"] = {
       ["empty"] = ".go 10 20 30 0",
@@ -182,14 +186,18 @@ elseif cont == "MAEL" then
 elseif cont == "PANDA" then
   return {
     ["Pandaria Capitals"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Shrine of Two Moons"] = ".go 1605 918 471 870",
+      ["Shrine of Seven Stars"] = ".go 882 295 505 870",
     },
     ["Pandaria Zones"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Vale of Eternal Blossoms"] = ".go 877 1625 356 870",
+      ["Kun-Lai Summit"] = ".go 3568 1727 860 870",
+      ["The Jade Forest"] = ".go 1125 -2008 135 870",
+	  ["Townlong Steppes"] = ".go 1580 3921 230 870",
+	  ["Valley of the Four Winds"] = ".go -257 645 167 870",
+	  ["Dread Wastes"] = ".go 205 3390 210 870",
+	  ["Krasarang Wilds"] = ".go -1417 1732 11 870",
+	  ["Timeless Isle"] = ".go -652 -4764 4 870",
     },
     ["Pandaria Dungeons"] = {
       ["empty"] = ".go 10 20 30 0",
@@ -205,14 +213,18 @@ elseif cont == "PANDA" then
 elseif cont == "DRA" then
   return {
     ["Draenor Capitals"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Stormshield Alliance"] = ".go 3716 -3919 30 1116",
+      ["Warspear Horde"] = ".go 5380 -4019 15 1116",
     },
     ["Draenor Zones"] = {
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
-      ["empty"] = ".go 10 20 30 0",
+      ["Talador"] = ".go 1780 2976 94 1116",
+      ["Nagrand"] = ".go 3410 7364 12 1116",
+      ["Frostfire Ridge"] = ".go 6021 2871 200 1116",
+	  ["Gorgrond"] = ".go 5319 1310 98 1116",
+	  ["Tanaan Jungle"] = ".go 4063 -1928 28 1116",
+	  ["Shadowmoon Valley"] = ".go 583 -1790 28 1116",
+	  ["Spires of Arak"] = "..go -463 1859 43 1116",
+	  ["Ashran"] = ".go 4531 -4157 15 1116",
     },
     ["Draenor Dungeons"] = {
       ["empty"] = ".go 10 20 30 0",
