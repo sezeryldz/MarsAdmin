@@ -4,12 +4,12 @@ MarsAdmin v7 Changelog
 -- Removed locales.
 -- Updated Logo
 -- Removed sub menus that was incomplete
--- Changed the color scheme
 -- Updated color scheme
 
 
--=[ Revision 2 - 24/02/2020]=-
+-=[ Revision 2 - 16/03/2020]=-
 -- Updated teleport list
--- Changed chat linking colors to more bright green
+-- Changed chat linking colors to brighter green
 -- Fixed the minimenu multiple popup error
 -- removed some unused files
+-- added a sweet gif to git page
